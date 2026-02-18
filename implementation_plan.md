@@ -85,3 +85,15 @@ PJ003_growth-log/
 86: - **Enhancement**: Update `StatCard` with gradient/glow effects.
 
 
+## 8. Task 06: Analysis & Deployment (GTM)
+
+### A. Google Tag Manager (GTM) Integration
+- **Library**: `react-gtm-module`
+- **ID**: `GTM-N9DK7375` (Provided by User)
+- **Implementation**:
+    - Initialize GTM in `src/main.jsx`.
+    - Verify data layer events if needed.
+
+### B. Deployment
+- **Platform**: Cloudflare Pages
+- **Optimization**: `_redirects` file for SPA routing.

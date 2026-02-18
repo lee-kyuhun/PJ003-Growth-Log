@@ -24,8 +24,8 @@
 ### [x] Task 03: 홈 대시보드 구현 ✅
 - **목표**: 메인 페이지 통계 및 Hero 섹션
 - **산출물**: `tasks/03_Home/`, `src/pages/Home.jsx`
-- [ ] Hero 섹션 (애니메이션 포함)
-- [ ] MAS 통계 위젯 (Mock 데이터)
+- [x] Hero 섹션 (애니메이션 포함)
+- [x] MAS 통계 위젯 (Mock 데이터)
 
 ### [x] Task 04: DevLog 시스템 구축 (핵심!)
 - **목표**: `tasks/` 폴더의 로그를 읽어서 보여주는 뷰어 만들기
@@ -46,5 +46,5 @@
 - **목표**: GA4/Clarity 연동 및 Cloudflare 배포
 - **산출물**: `tasks/05_Deploy/`
 - [ ] GA4 / Clarity 스크립트 삽입
-- [ ] Cloudflare Pages 배포
+- [x] Cloudflare Pages 배포
 - [ ] 최종 테스트
