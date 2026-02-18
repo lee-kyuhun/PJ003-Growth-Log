@@ -42,9 +42,9 @@
 
 ## Phase 3: 배포 및 분석 (Final)
 
-### [/] Task 06: 분석 도구 및 배포
+### [x] Task 06: 분석 도구 및 배포
 - **목표**: GA4/Clarity 연동 및 Cloudflare 배포
 - **산출물**: `tasks/05_Deploy/`
-- [ ] GA4 / Clarity 스크립트 삽입
+- [x] GA4 / Clarity 스크립트 삽입 (GTM 연동 완료)
 - [x] Cloudflare Pages 배포
-- [ ] 최종 테스트
+- [x] 최종 테스트
