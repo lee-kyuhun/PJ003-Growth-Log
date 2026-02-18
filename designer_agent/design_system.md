@@ -1,39 +1,29 @@
-# PJ003 Meta-Log Design System
+# PJ003 Meta-Log Design System (v2.0 Premium)
 
-## 1. Color Palette (Dark Theme Default)
+## 1. Core Philosophy: "Premium Glassmorphism"
+*   **Keywords**: Deep, Glowing, Fluid, Futuristic.
+*   **Inspiration**: Linear, Raycast, Modern AI Interfaces.
 
-- **Background**: `bg-gray-900` (#111827) - Main background
-- **Surface**: `bg-gray-800` (#1f2937) - Cards, Sidebar
-- **Primary**: `text-indigo-400` (#818cf8) - Links, Active states
-- **Secondary**: `text-teal-400` (#2dd4bf) - Accents, Highlights
-- **Text**: `text-gray-100` (#f3f4f6) - Main text
-- **Muted**: `text-gray-400` (#9ca3af) - Secondary text, Footer
+## 2. Color Palette (Theme Uplift)
+*   **Background**: `bg-slate-900` + Animated Gradients (Blue/Purple/Pink).
+*   **Surface**: `bg-slate-800/50` (Glass)
+*   **Primary**: Blue-500 to Purple-500 Gradient.
+*   **Secondary**: Pink-500, Emerald-400 (for Success states).
+*   **Text**:
+    *   Headings: `text-white` or Gradient Text.
+    *   Body: `text-slate-400`.
 
-## 2. Typography
+## 3. Component Tokens
 
-- **Font Family**: System UI (San Francisco, Inter, Segoe UI)
-- **Code**: `font-mono` (Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace)
+### Cards (`ProjectCard`, `StatCard`)
+*   **Base**: `bg-slate-800/50 backdrop-blur-xl border border-white/5`
+*   **Hover**: `border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-1`
+*   **Transition**: `transition-all duration-300`
 
-## 3. Layout Structure
+### Typography
+*   **Hero**: `text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 animate-gradient-x`
+*   **Font**: System UI + `font-mono` for data.
 
-### Main Layout
-- **Navbar**: Fixed top, `h-16`, glassmorphism (`backdrop-blur-md bg-gray-900/70`).
-- **Main Content**: `pt-16` (to account for fixed navbar), `min-h-screen`.
-- **Footer**: `py-8`, `text-center`.
-- **Container**: `max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`.
-
-### Components
-
-#### Navbar
-- Logo: "Meta-Log" (Bold, Primary Color)
-- Links: Home, DevLog, Portfolio, About
-
-#### Footer
-- Copyright
-- Social Links (GitHub, LinkedIn)
-
-## 4. Routing Structure
-
-- `/`: Home (Task 03)
-- `/devlog`: DevLog List (Task 04)
-- `/portfolio`: Portfolio (Task 05)
+## 4. Layout & Effects
+*   **Global Background**: Use `<BackgroundGlow />` component for consistent ambient lighting.
+*   **Animations**: `framer-motion` for entry (`opacity: 0, y: 20` -> `opacity: 1, y: 0`).

@@ -1,0 +1,53 @@
+[
+    {
+        "id": "pj001",
+        "title": "Kanban Project Manager",
+        "description": "A drag-and-drop Kanban board for task management, built with React and dnd-kit.",
+        "image": "https://placehold.co/600x400/1e293b/white?text=PJ001",
+        "tags": [
+            "React",
+            "dnd-kit",
+            "TailwindCSS"
+        ],
+        "links": {
+            "github": "#",
+            "demo": "#"
+        },
+        "aiContribution": 85,
+        "status": "Completed"
+    },
+    {
+        "id": "pj002",
+        "title": "MAS Learning Lab",
+        "description": "Experimental Multi-Agent System environment for testing agent interactions.",
+        "image": "https://placehold.co/600x400/1e293b/white?text=PJ002",
+        "tags": [
+            "Python",
+            "LangChain",
+            "OpenAI"
+        ],
+        "links": {
+            "github": "#",
+            "demo": "#"
+        },
+        "aiContribution": 95,
+        "status": "Completed"
+    },
+    {
+        "id": "pj003",
+        "title": "Growth Log (Meta-Log)",
+        "description": "Live dashboard tracking my growth as an AI-Native Developer.",
+        "image": "https://placehold.co/600x400/1e293b/white?text=PJ003",
+        "tags": [
+            "React",
+            "Vite",
+            "Recharts"
+        ],
+        "links": {
+            "github": "#",
+            "demo": "#"
+        },
+        "aiContribution": 90,
+        "status": "In Progress"
+    }
+]

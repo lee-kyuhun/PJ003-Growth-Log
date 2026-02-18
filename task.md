@@ -21,26 +21,28 @@
 
 ## Phase 2: 핵심 기능 (Core Features)
 
-### [ ] Task 03: 홈 대시보드 구현
+### [x] Task 03: 홈 대시보드 구현 ✅
 - **목표**: 메인 페이지 통계 및 Hero 섹션
 - **산출물**: `tasks/03_Home/`, `src/pages/Home.jsx`
 - [ ] Hero 섹션 (애니메이션 포함)
 - [ ] MAS 통계 위젯 (Mock 데이터)
 
-### [ ] Task 04: DevLog 시스템 구축 (핵심!)
+### [x] Task 04: DevLog 시스템 구축 (핵심!)
 - **목표**: `tasks/` 폴더의 로그를 읽어서 보여주는 뷰어 만들기
 - **산출물**: `tasks/03_Devlog/`, `src/pages/DevLog.jsx`
-- [ ] 마크다운 파서 연동
-- [ ] 로그 리스트 페이지
-- [ ] 로그 상세 뷰어 페이지
+- [x] 마크다운 파서 연동
+- [x] 로그 리스트 페이지
+- [x] 로그 상세 뷰어 페이지
 
-### [ ] Task 05: 포트폴리오 페이지
+### [x] Task 05: 포트폴리오 페이지 ✅
 - **목표**: 프로젝트 갤러리 구현
 - **산출물**: `tasks/04_Portfolio/`
+- [x] Implement Glassmorphism Design
+- [x] Standardize Home & StatCard UI (Global Polish) ✅
 
 ## Phase 3: 배포 및 분석 (Final)
 
-### [ ] Task 06: 분석 도구 및 배포
+### [/] Task 06: 분석 도구 및 배포
 - **목표**: GA4/Clarity 연동 및 Cloudflare 배포
 - **산출물**: `tasks/05_Deploy/`
 - [ ] GA4 / Clarity 스크립트 삽입

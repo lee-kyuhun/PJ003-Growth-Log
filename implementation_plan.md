@@ -59,3 +59,29 @@ PJ003_growth-log/
 1.  **빌드 테스트**: `npm run build`
 2.  **로그 기록 확인**: `tasks/XX/mas_log.md`가 충실히 작성되었는지 확인.
 3.  **사용자 승인**: 결과물 시연 후 다음 대화창으로 이동.
+
+## 7. Task 05: Portfolio Implementation
+
+### A. Data Layer (`src/data/projects.json`)
+- Create a JSON file to store project metadata.
+- Fields: `id`, `title`, `description`, `image`, `tags`, `links`, `aiContribution`.
+
+### B. Components (`src/components/portfolio/`)
+- **ProjectCard.jsx**: Displays individual project details.
+    - Uses `framer-motion` for hover effects.
+    - Shows AI contribution badge.
+
+### C. Pages (`src/pages/Portfolio.jsx`)
+- **Grid Layout**: Responsive grid for project cards.
+- **Hero Section**: Brief intro.
+
+### D. Integration
+- Update `App.jsx` with `/portfolio` route.
+81: - Verify `Navbar.jsx` link (already exists).
+82: 
+83: ### E. UI Polish (Based on PM Review)
+84: - **Global Styles**: Adopt `Glassmorphism` across `Home` and `StatCard`.
+85: - **Refactoring**: Extract `BackgroundGlow` component.
+86: - **Enhancement**: Update `StatCard` with gradient/glow effects.
+
+
