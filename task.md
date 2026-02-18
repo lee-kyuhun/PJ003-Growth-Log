@@ -4,20 +4,20 @@
 
 ## Phase 1: 기반 구축 (Setup)
 
-### [ ] Task 01: 프로젝트 초기화 ✅
+### [x] Task 01: 프로젝트 초기화 ✅
 - **목표**: React 프로젝트 생성 및 저장소 연결
 - **산출물**: `tasks/01_Init/`, `src/` 초기 코드
-- [ ] Vite React 프로젝트 생성 (`PJ003_growth-log`)
-- [ ] GitHub 레포지토리 초기화 및 푸시
-- [ ] TailwindCSS 설치 및 설정
-- [ ] `tasks/` 폴더 구조 생성
+- [x] Vite React 프로젝트 생성 (`PJ003_growth-log`)
+- [x] GitHub 레포지토리 초기화 및 푸시
+- [x] TailwindCSS 설치 및 설정
+- [x] `tasks/` 폴더 구조 생성
 
-### [ ] Task 02: 레이아웃 및 디자인 시스템
+### [x] Task 02: 레이아웃 및 디자인 시스템
 - **목표**: 앱의 기본 골격과 스타일 가이드라인 수립
 - **산출물**: `tasks/02_Layout/`, `src/components/layout/`
-- [ ] 라우터 설정 (`react-router-dom`)
-- [ ] 메인 레이아웃 개발 (Navbar, Footer)
-- [ ] 폰트 및 컬러 팔레트 정의 (Designer Agent)
+- [x] 라우터 설정 (`react-router-dom`)
+- [x] 메인 레이아웃 개발 (Navbar, Footer)
+- [x] 폰트 및 컬러 팔레트 정의 (Designer Agent)
 
 ## Phase 2: 핵심 기능 (Core Features)
 
